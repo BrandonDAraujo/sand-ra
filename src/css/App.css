@@ -1,0 +1,35 @@
+.greenBlink{
+    animation-timing-function: ease;
+    animation-duration: 0.5s;
+    animation-name: blinkGreen;
+}
+
+.redBlink{
+    animation-timing-function: ease;
+    animation-duration: 0.5s;
+    animation-name: blinkRed; 
+}
+
+
+@keyframes blinkRed {
+    from{
+        color: white;
+    }
+    50%{
+        color: lightcoral;
+    }
+    to{
+        color: white;
+    }
+}
+@keyframes blinkGreen {
+    from{
+        color: white;
+    }
+    50%{
+        color: lightgreen;
+    }
+    to{
+        color: white;
+    }
+}

@@ -1,0 +1,8 @@
+.highlightA, .highlightB{
+    box-shadow: 0px 0px 0.20833333333333334vw 0.052083333333333336vw #D66627 !important;
+    border: none;
+}
+
+.highlightA > p, .highlightB > p{
+    color: #D66627;
+}
